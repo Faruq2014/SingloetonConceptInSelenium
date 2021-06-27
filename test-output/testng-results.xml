@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12160" started-at="2021-06-26T20:25:26 EDT" finished-at="2021-06-26T20:25:38 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12160" started-at="2021-06-26T20:25:26 EDT" finished-at="2021-06-26T20:25:38 EDT">
+      <class name="singletonConceptInFrameWork.TitleAndUrlTest">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:singletonConceptInFrameWork.TitleAndUrlTest@32709393]" name="openApplication" is-config="true" duration-ms="10362" started-at="2021-06-26T20:25:26 EDT" finished-at="2021-06-26T20:25:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:singletonConceptInFrameWork.TitleAndUrlTest@32709393]" name="titleTest" duration-ms="339" started-at="2021-06-26T20:25:36 EDT" finished-at="2021-06-26T20:25:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="urlTest()[pri:0, instance:singletonConceptInFrameWork.TitleAndUrlTest@32709393]" name="urlTest" duration-ms="39" started-at="2021-06-26T20:25:36 EDT" finished-at="2021-06-26T20:25:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="destoryBrowser()[pri:0, instance:singletonConceptInFrameWork.TitleAndUrlTest@32709393]" name="destoryBrowser" is-config="true" duration-ms="1346" started-at="2021-06-26T20:25:36 EDT" finished-at="2021-06-26T20:25:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destoryBrowser -->
+      </class> <!-- singletonConceptInFrameWork.TitleAndUrlTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
