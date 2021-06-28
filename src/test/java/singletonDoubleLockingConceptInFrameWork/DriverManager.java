@@ -1,4 +1,4 @@
-package singletonConceptInFrameWork;
+package singletonDoubleLockingConceptInFrameWork;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,9 +15,11 @@ public class DriverManager {
 		
 	}
 	
-	public static DriverManager getDriverInastance() {		
-		if (driverInstance==null) {			
-			driverInstance=	new DriverManager();		
+	public static DriverManager getDriverInastance() {
+		if (driverInstance==null) {
+			synchronized(DriverManager.class) {
+			driverInstance=	new DriverManager();
+			}
 		}
 		return driverInstance;
 	}

@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="singletonConceptInFrameWork.TitleAndUrlTest">
+      <class name="singletonConceptInWithPageObjectModel.LoginAccountTest2">
         <methods>
-          <include name="destoryBrowser"/>
+          <include name="loginTest"/>
           <include name="openApplication"/>
-          <include name="titleTest"/>
         </methods>
-      </class> <!-- singletonConceptInFrameWork.TitleAndUrlTest -->
+      </class> <!-- singletonConceptInWithPageObjectModel.LoginAccountTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
